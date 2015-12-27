@@ -221,7 +221,7 @@ function create_config( )
     "all"
     },
     sudo_users = {76534150,0,tonumber(our_id)},--Sudo users
-    disabled_channels = {},
+    disabled_channels = {88034329},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v1
