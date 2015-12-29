@@ -341,7 +341,7 @@ Commands list :
 
 * استفاده کند res,setowner,promote,demote and log فقط ادمین اصلی می تواند از 
 
-Tnx to SEED Team @infinitiSiS adn @Wolfsm
+Tnx to SEED Team @infinitiSiS and @Wolfsm
 ]]
 
   }
