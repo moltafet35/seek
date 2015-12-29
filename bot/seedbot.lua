@@ -239,108 +239,109 @@ Our channels
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+حذف از گروه ک با ریپلی همه انجام می شود
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن از گروه که با ریپلی هم انجام می شود
 
 !unban [id]
-You can also do it by reply
+خارج کردن از بن فقط با ایدی عمل می کند
 
 !who
-Members list
+فرستادین لیست از اعضای گروه توسط ربات
 
 !modlist
-Moderators list
+لیست مدیران گروه
 
 !promote [username]
-Promote someone
+مدیر کردن یک فرد در گروه که فقط با ایدی عمل می کند
 
 !demote [username]
-Demote someone
+خارج کردن یه فرد از مقام مدیریت در گروه که فقط با ایدی انجام می شود
 
 !kickme
-Will kick user
+ربات شمار را از گروه حذف می کند
 
 !about
-Group description
+فرستادن متن درباره ی گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس گروه توسط ربات
 
 !setname [name]
-Set group name
+تنظیم نام گروه توسط ربات
 
 !rules
-Group rules
+نشان دادن قونین گروه
 
 !id
-return group id or user id
+نشنان دادن آیدی گروه
 
 !help
 
 !lock [member|name|bots]
-Locks [member|name|bots] 
+قفل کردن {اعضا,نام,ربات} در گروه 
 
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+باز کردن قفل کردن {اعضا,نام,ربات} در گروه
 
 !set rules <text>
-Set <text> as rules
+تنظیم قوانین برا گروه
 
 !set about <text>
-Set <text> as about
+تنظیم درباره ی گروه
 
 !settings
-Returns group settings
+نشنان دادن تنظیمات گروه
 
 !newlink
-create/revoke your group link
+اینجاد یک لینک جدید برای گروه
 
 !link
-returns group link
+نمایش لینک گروه
 
 !owner
-returns group owner id
+نمایش ادمین اصلی گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم ادمین اصلی گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم تعداد پیام برای تشخیص به عنوان اسپم
 
 !stats
-Simple message statistics
+نشنان دادن مشخصات
 
 !save [value] <text>
-Save <text> as [value]
+ ذخیره کردن یه متن به عنوان یک مقدار
 
 !get [value]
-Returns text of [value]
+نمایش متن در مقدار ذخیره شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن {مدیران,قوانین,درباره ی گروه} در گروه
 
 !res [username]
-returns user id
+نشان دادن ایدی یک فرد
 "!res @username"
 
 !log
-will return group logs
+نشان دادن کارنامه ی گروه
 
 !banlist
-will return group ban list
+نمایش لیت افراد بن شده توسط ربات
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+**شما میتوانید برای دستور دادن قبل پیام هم از ! و هم از / استفاده کنید
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+*فقط مدیران و ادمین اصلی گروه می توانند ربات داخل گروه اد کنند
 
-*Only owner can use res,setowner,promote,demote and log commands
 
+* استفاده کنند kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings فقط مدیران می توانند از
+
+* استفاده کند res,setowner,promote,demote and log فقط ادمین اصلی می تواند از 
+
+Tnx to SEED Team @infinitiSiS adn @Wolfsm
 ]]
 
   }
