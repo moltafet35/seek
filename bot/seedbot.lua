@@ -222,7 +222,7 @@ function create_config( )
     },
     sudo_users = {76534150,0,tonumber(our_id)},--Sudo users
     disabled_channels = {88034329},
-    realm = {57378140},--Realms Id
+    realm = {63193643},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v1
 An advance Administration bot based on yagop/telegram-bot 
@@ -341,7 +341,7 @@ Commands list :
 
 * استفاده کند res,setowner,promote,demote and log فقط ادمین اصلی می تواند از 
 
-Tnx to SEED Team @infinitiSiS and @Wolfsm
+Tnx to SEED Team. @infinitiSiS
 ]]
 
   }
